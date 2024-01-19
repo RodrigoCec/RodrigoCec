@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Rodrigo
- */
+import java.util.Random;
 public class git {
-    
+    public static void main(String[] args) {
+ 
+        Random random = new Random();
+        
+        int numeroAleatorio = random.nextInt(6);
+
+        System.out.println("La cara es: " + numeroAleatorio);
+    }
 }
